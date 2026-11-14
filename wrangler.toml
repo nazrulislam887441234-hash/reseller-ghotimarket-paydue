@@ -1,0 +1,11 @@
+name = "reseller-ghotimarket-paydue"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+[vars]
+FIREBASE_PROJECT_ID = "paikarisell-ghotimarket"
+ALLOWED_ORIGIN = "https://reseller.ghotimarket.com"
+
+# Secrets (To be added via wrangler secret put)
+# TELEGRAM_BOT_TOKEN
+# TELEGRAM_CHAT_ID
